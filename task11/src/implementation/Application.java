@@ -24,5 +24,8 @@ public class Application {
 
         door.promote();
         display.printDoorState();
+
+        door.promote();
+        display.printDoorState();
     }
 }
