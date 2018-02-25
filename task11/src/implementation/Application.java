@@ -8,24 +8,17 @@ public class Application {
         door.addListener(display);
 
         door.setState(new S0());
-        display.printDoorState();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
 
-        door.promote();
-        display.printDoorState();
+        door.pressButton();
     }
 }

@@ -9,7 +9,7 @@ public class S0 implements IDoorState {
      * @param door The door.
      */
     public void promote(Door door) {
-        door.setState(new S1()) ;
+        door.setState(new S1());
     }
 
     @Override

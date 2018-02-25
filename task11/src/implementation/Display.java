@@ -14,11 +14,12 @@ public class Display implements IDoorListener {
      */
     public void changeState(IDoorState newState) {
         this.doorState = newState;
+        this.printDoorState();
     }
     /**
      * Prints the door state.
      */
-    public void printDoorState() {
+    private void printDoorState() {
         System.out.println("Door state reported from the display: " + this.doorState.toString());
     }
 }

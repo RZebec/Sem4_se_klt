@@ -38,9 +38,8 @@ public class Door {
     /**
      * Promotes the door to a new state.
      */
-    public void promote() {
+    public void pressButton() {
         this.state.promote(this);
-        this.notifyListenersForStateChange(this.state);
     }
     /**
      * Sets the door state.
